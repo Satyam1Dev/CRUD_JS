@@ -1,0 +1,33 @@
+
+body{
+    font-family: sans-serif;
+    margin: 0 50px;
+    background-color: rgb(1, 37, 86);
+    color: rgb(255, 255, 53);
+}
+
+.container{
+    display: flex;
+    gap: 50px;
+}
+#posts{
+    width: 400px;
+}
+
+i{
+    cursor: pointer;
+}
+
+#posta div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.options{
+display:flex;
+gap: 25px ;
+}
+
+#msg{
+    color: red;
+}
